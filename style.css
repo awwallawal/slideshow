@@ -1,0 +1,32 @@
+/* Slide Show Container */
+#slide1 {
+    background: url('./images/gov_seyi.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#slide2 {
+    background: url('./images/comm_gov.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#slide3 {
+    background: url('./images/600x200.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.slide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
